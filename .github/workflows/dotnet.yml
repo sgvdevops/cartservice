@@ -52,4 +52,4 @@ jobs:
       with:
         context: ./src/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/cartservice:latest
+        tags: latest
